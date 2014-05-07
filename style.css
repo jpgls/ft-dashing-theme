@@ -1,0 +1,154 @@
+/*
+ * Dashing Theme is released under the MIT license
+ * and is copyright 2014 Jordan Pagels.
+ * The full license is located in the
+ * project repository for more
+ * information.
+ */
+
+ /*
+	Black - rgb(18, 15, 17)
+	Grey - rgb(39, 33, 35)
+	Light - rgb(205, 229, 218)
+	Blue - rgb(118, 161, 154)
+	Red - rgb(217, 89, 61)
+ */
+
+.syntax {
+    color:rgb(118, 161, 154); 
+}
+.collapseSpanningSyntax .code.currentSyntaxBlock.syntax,
+.collapseSpanningSyntax .inlineLink.currentSyntaxBlock.syntax,
+.collapseSpanningSyntax .referenceLink.currentSyntaxBlock.syntax,
+.collapseSpanningSyntax .strong.currentSyntaxBlock.syntax,
+.collapseSpanningSyntax .emphasis.currentSyntaxBlock.syntax {
+	font-family:inherit;
+	color: rgb(118, 161, 154);
+}
+.unordered .lead.syntax {
+	color: rgb(205, 229, 218);	
+}
+.ordered .lead.syntax {
+	color: rgb(118, 161, 154);	
+}
+html {
+	-webkit-font-smoothing: antialiased;
+}
+body {
+	font-family: 'Source Code Pro', Courier, monospace;
+	background: rgb(39, 33, 35);
+	color: rgb(205, 229, 218);
+}
+.heading[level="0"],
+.heading[level="1"],
+.heading[level="2"],
+.heading[level="3"],
+.heading[level="4"],
+.heading[level="5"] {
+    font-weight: 400;
+    color: rgb(118, 161, 154);
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.heading[level="0"] {
+	color: rgb(118,161,154);
+	font-weight: 800;
+    margin-bottom: 4px;
+    font-size: 38px;
+    line-height: 38px;
+}
+.heading[level="1"] {
+    margin-bottom: 14px;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.heading[level="2"] {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.heading[level="3"] {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.heading[level="4"] {
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.heading[level="5"] {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid rgb(118, 161, 154);
+}
+li {
+	color: rgb(170, 176, 81);
+}
+.tabs {
+	font-family:HalfWidthSpace;
+}
+.code, .codeblock {
+	font-family: 'Source Code Pro', Courier, monospace;
+}
+.code, .codeblock > .content > .text {
+	background: rgb(18, 15, 17);
+}
+//.empty + .codeblock > .content, .codeblock + .empty > .content { 
+//	border-top: 0.5rem solid rgb(217, 89, 61);
+//}
+.blockquote {
+	font-style:oblique;
+}
+.headerLeadSyntaxText:hover {
+	text-decoration:underline;
+	cursor: pointer;
+}
+.htmltag {
+	color:rgb(118, 161, 154);
+}
+.htmltag-attributevalue {
+	color:rgb(205, 229, 218);
+}
+@font-face {
+	font-family: CourierFoldEllipse;
+	src: url('./fonts/CourierFoldEllipse.ttf');
+}
+.foldafter .content:after {
+	font-family: CourierFoldEllipse, Courier;
+	font-style:normal;
+	font-weight:normal;
+	content:" …";
+}
+.editorTopFold {
+	color: rgb(39, 33, 35);
+	background: rgb(217, 89, 61);
+}
+@font-face {
+	font-family: CourierBulletDone;
+	src: url('./fonts/CourierBulletDone.ttf');
+}
+@font-face {
+	font-family: CourierBulletNotDone;
+	src: url('./fonts/CourierBulletNotDone.ttf');
+}
+.unordered.todoMode .lead {
+	font-family:CourierBulletNotDone, Courier;
+}
+div[done].unordered.todoMode .lead {
+	font-family:CourierBulletDone, Courier;
+}
+.unordered.todoMode {
+	font-size: 1.2rem;
+	color: rgb(217, 89, 61);
+}
+div[done].unordered.todoMode {
+	font-weight: 800;
+	color: rgb(102, 115, 113);
+}
