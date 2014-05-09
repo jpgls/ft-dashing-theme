@@ -3,6 +3,8 @@
 ## General Overview
 This is an original, custom theme designed for [FoldingText](http://www.foldingtext.com).
 
+![](http://jpgls.com/ft-dashing-theme/example-images/FoldingText.png)
+
 ### Fonts
 ---  
 Ideally, this theme is intended to make use of Adobe's Open Source fonts, **Adobe Source Sans Pro** and **Adobe Source Code Pro**. You can check out the **GitHub** Projects ([code](https://github.com/adobe/source-code-pro) - [sans](https://github.com/adobe/source-sans-pro)) or download the OTF files directly from **SourceForge** ([code](http://sourceforge.net/projects/sourcecodepro.adobe/files/) - [sans](http://sourceforge.net/projects/sourcesans.adobe/files/)). The easiest way to install the fonts though, is using Typekit ([code](https://typekit.com/fonts/source-code-pro) - [sans](https://typekit.com/fonts/source-sans-pro)) - assuming you have an account either directly or through Creative Cloud.
